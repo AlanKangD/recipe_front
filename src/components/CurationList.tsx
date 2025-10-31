@@ -30,7 +30,7 @@ export default function CurationList({ curations }: Props) {
   };
 
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section className="bg-background py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* 헤더 */}
         <div className="mb-12 md:mb-16">
@@ -98,7 +98,7 @@ export default function CurationList({ curations }: Props) {
               <>
                 <button
                   onClick={scrollLeft}
-                  className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg rounded-full p-2 z-10 hidden sm:block"
+                  className="absolute left-0 top-1/2 -translate-y-1/2 bg-background/90 hover:bg-background shadow-lg rounded-full p-2 z-10 hidden sm:block"
                   aria-label="이전 큐레이션 보기"
                 >
                   <svg
@@ -118,7 +118,7 @@ export default function CurationList({ curations }: Props) {
                 </button>
                 <button
                   onClick={scrollRight}
-                  className="absolute right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg rounded-full p-2 z-10 hidden sm:block"
+                  className="absolute right-0 top-1/2 -translate-y-1/2 bg-background/90 hover:bg-background shadow-lg rounded-full p-2 z-10 hidden sm:block"
                   aria-label="다음 큐레이션 보기"
                 >
                   <svg

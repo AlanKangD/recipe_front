@@ -14,7 +14,7 @@ type Props = {
 
 export default function RecipesForYou({ recipes }: Props) {
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section className="bg-background py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* 제목 및 부제목 */}
         <div className="text-center mb-12 md:mb-16">
